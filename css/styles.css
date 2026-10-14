@@ -1,4 +1,4 @@
-/* --- RESET Y CONFIGURACIÓN GENERAL --- */
+/* --- CONFIGURACIÓN GENERAL --- */
 * {
     margin: 0;
     padding: 0;
@@ -98,7 +98,7 @@ nav a:hover {
     box-shadow: 0 6px 15px rgba(0,0,0,0.4);
 }
 
-/* --- SECCIONES GENERALES (COMPENSACIÓN DE NAVEGACIÓN) --- */
+/* --- SECCIONES GENERALES --- */
 .noticias-seccion, .smn-seccion, .resenas-seccion, .servicios-seccion {
     padding: 3rem 2rem;
     max-width: 1100px;

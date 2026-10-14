@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroClima - Impacto de El Niño & SMN</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- 1. HEADER Y NAVEGACIÓN -->
+    <header>
+        <div class="logo">
+            <h1>🌱 AgroClima <span>Info</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#smn-alertas">Mapas SMN</a></li>
+                <li><a href="#resenas">Análisis</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 2. CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- Banner Principal -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h2>El Niño en la Campaña Agrícola & Datos del SMN</h2>
+                <p>Monitoreo climático oficial, perspectivas de precipitaciones y mapas hidrometeorológicos para el campo argentino.</p>
+                <div class="multimedia-container">
+                    <iframe src="https://www.youtube-nocookie.com/embed/Eh_WCQWXgGs" title="Informe Agroclimático El Niño" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección NOTICIAS (FLEXBOX) -->
+        <section id="noticias" class="noticias-seccion">
+            <h2>Noticias y Reportes Destacados</h2>
+            <div class="contenedor-flex">
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=500" alt="Campo de trigo">
+                    <h3>Recuperación del Trigo y Maíz</h3>
+                    <p>Las últimas precipitaciones registradas en la región pampeana permitieron recomponer la humedad en los primeros centímetros del suelo, impulsando el desarrollo de los cultivos de invierno y brindando optimismo para las siembras tempranas de maíz.</p>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff?w=500" alt="Inundación en campo">
+                    <h3>Alerta por Excesos Hídricos</h3>
+                    <p>Frente al incremento del caudal pluvial impulsado por la fase activa de El Niño, diversos partidos del Litoral y la Provincia de Buenos Aires advierten sobre intransitabilidad en caminos rurales y anegamiento en lotes de baja cota topográfica.</p>
+                </article>
+
+                <article class="card">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=500" alt="Siembra de soja">
+                    <h3>Proyecciones para la Soja</h3>
+                    <p>Con la recarga de humedad en los perfiles profundos proyectada por el Servicio Meteorológico Nacional, las estimaciones iniciales para la campaña gruesa auguran rindes por encima del promedio histórico en la zona núcleo.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección MAPAS DE LLUVIAS Y REPORTES SMN (FLEXBOX) -->
+        <section id="smn-alertas" class="smn-seccion">
+            <h2>Mapas de Lluvia y Reportes del Servicio Meteorológico Nacional</h2>
+            <p class="subtitulo-seccion">Monitoreo de acumulados de lluvia, mapas de radar y balance hídrico del SMN.</p>
+            
+            <div class="contenedor-flex">
+                <article class="card card-smn">
+                    <img src="https://images.unsplash.com/photo-1516912481808-3406841bd33c?w=500" alt="Mapa de radar de lluvias">
+                    <h3>Mapas de Radar y Tormentas</h3>
+                    <p>Seguimiento continuo mediante la red de radares meteorológicos para la localización temprana de celdas de tormenta, ráfagas de viento y caída de granizo sobre los núcleos agrícolas.</p>
+                    <span class="tag">Radar SMN</span>
+                </article>
+
+                <article class="card card-smn">
+                    <img src="https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=500" alt="Lluvias en el campo">
+                    <h3>Acumulados de Lluvia Semanal</h3>
+                    <p>Consolidado estadístico de milímetros caídos registrado por las estaciones automáticas y convencionales del SMN, clave para evaluar la reserva hídrica en suelo.</p>
+                    <span class="tag">Pluviometría</span>
+                </article>
+
+                <article class="card card-smn">
+                    <img src="https://images.unsplash.com/photo-1504386106331-3e4e71712b38?w=500" alt="Pronóstico de precipitaciones">
+                    <h3>Pronóstico de Precipitaciones</h3>
+                    <p>Perspectivas pluviométricas a corto y mediano plazo elaboradas por el organismo oficial para orientar las ventanas de aplicación de fitosanitarios y tareas de cosecha.</p>
+                    <span class="tag">Pronóstico Oficial</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección ANÁLISIS (CSS GRID) -->
+        <section id="resenas" class="resenas-seccion">
+            <h2>Análisis y Opinión de Especialistas</h2>
+            <div class="contenedor-grid">
+                <div class="card-grid">
+                    <h4>Ing. Agrónomo Esteban Gómez</h4>
+                    <p class="cargo">Consultor Agroclimático</p>
+                    <p>"El fortalecimiento del fenómeno El Niño brinda un escenario favorable para la recuperación de reservas de agua, aunque requiere un manejo cauteloso del calendario de siembra para evitar ventanas de anegamiento."</p>
+                </div>
+                <div class="card-grid">
+                    <h4>Dra. Mariana Rossi</h4>
+                    <p class="cargo">Investigadora en Suelos</p>
+                    <p>"La consulta frecuente del Sistema de Alerta Temprana del SMN se transformó en una herramienta estratégica indispensable para reducir la escorrentía y proteger la estructura edáfica de los lotes."</p>
+                </div>
+                <div class="card-grid">
+                    <h4>Lic. Carlos Peralta</h4>
+                    <p class="cargo">Analista de Mercados</p>
+                    <p>"El repunte en los volúmenes cosechados proyectados por las mejoras climáticas fortalecerá el ingreso de divisas y dinamizará la contratación de fletes y servicios agroindustriales."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE SERVICIOS Y PLANES -->
+        <section id="servicios" class="servicios-seccion">
+            <h2>Planes de Asesoramiento y Alertas Climáticas</h2>
+            <p class="subtitulo-seccion">Contratá servicios profesionales de monitoreo satelital y pronósticos de El Niño adaptados a tu establecimiento rural.</p>
+            
+            <div class="contenedor-flex">
+                <div class="card-servicio">
+                    <h3>Reporte Básico</h3>
+                    <p class="precio">$45.000 <span>/ mes</span></p>
+                    <p class="desc-plan">Ideal para productores independientes que necesitan un seguimiento semanal de precipitaciones y alertas tempranas del SMN.</p>
+                    <ul>
+                        <li>✓ Resumen pluviométrico semanal</li>
+                        <li>✓ Alertas de tormentas severas</li>
+                        <li>✓ Acceso a boletín por email</li>
+                    </ul>
+                    <a href="#formulario-suscripcion" class="btn-comprar" onclick="document.getElementById('plan-seleccionado').value='Reporte Básico ($45.000/mes)';">Contratar Servicio</a>
+                </div>
+
+                <div class="card-servicio card-destacado">
+                    <span class="badge-popular">Más Solicitado</span>
+                    <h3>Monitoreo El Niño Pro</h3>
+                    <p class="precio">$98.000 <span>/ mes</span></p>
+                    <p class="desc-plan">Diseñado para campos medianos y asesores agronómicos que requieren balances hídricos y proyecciones trimestrales.</p>
+                    <ul>
+                        <li>✓ Todo lo del plan Básico</li>
+                        <li>✓ Balance hídrico de suelos en tiempo real</li>
+                        <li>✓ Mapas de radar interactivos</li>
+                        <li>✓ Reportes de impacto de El Niño</li>
+                    </ul>
+                    <a href="#formulario-suscripcion" class="btn-comprar" onclick="document.getElementById('plan-seleccionado').value='Monitoreo El Niño Pro ($98.000/mes)';">Contratar Servicio</a>
+                </div>
+
+                <div class="card-servicio">
+                    <h3>Consultoría Enterprise</h3>
+                    <p class="precio">$190.000 <span>/ mes</span></p>
+                    <p class="desc-plan">Solución integral para empresas agropecuarias, pools de siembra y acopios con asesoría técnica personalizada.</p>
+                    <ul>
+                        <li>✓ Todo lo del plan Pro</li>
+                        <li>✓ Consultoría 1 a 1 con Ing. Agrónomos</li>
+                        <li>✓ Pronósticos hiperlocales por lote</li>
+                        <li>✓ Soporte prioritario 24/7</li>
+                    </ul>
+                    <a href="#formulario-suscripcion" class="btn-comprar" onclick="document.getElementById('plan-seleccionado').value='Consultoría Enterprise ($190.000/mes)';">Contratar Servicio</a>
+                </div>
+            </div>
+
+            <!-- FORMULARIO DE SUSCRIPCIÓN QUE RECIBE LA SELECCIÓN -->
+            <div id="formulario-suscripcion" class="formulario-container">
+                <h3>Formulario de Contratación de Servicio</h3>
+                <p>Complete sus datos para finalizar la suscripción al plan seleccionado.</p>
+                
+                <form action="#" method="POST" onsubmit="event.preventDefault(); alert('¡Gracias por contratar el servicio en AgroClima Info! Un asesor se pondrá en contacto a la brevedad.');">
+                    <div class="campo-form">
+                        <label for="plan-seleccionado">Servicio Seleccionado</label>
+                        <input type="text" id="plan-seleccionado" name="plan" value="Monitoreo El Niño Pro ($98.000/mes)" readonly required class="input-readonly">
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="nombre">Nombre y Apellido</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="telefono">Teléfono / WhatsApp de Contacto</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Ej. 11 1234-5678" required>
+                    </div>
+
+                    <div class="campo-form">
+                        <label for="zona">Zona de Producción / Región</label>
+                        <select id="zona" name="zona">
+                            <option value="pampeana">Zona Núcleo / Pampeana</option>
+                            <option value="litoral">Litoral (Entre Ríos / Corrientes / Santa Fe)</option>
+                            <option value="noa">NOA (Tucumán / Salta / Jujuy)</option>
+                            <option value="cuyo">Cuyo</option>
+                            <option value="patagonia">Patagonia</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn-enviar">Confirmar y Contratar Suscripción</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- 3. FOOTER -->
+    <footer>
+        <p>&copy; 2026 AgroClima Informativo - Proyecto Talento Tech Front-End</p>
+    </footer>
+
+</body>
+</html>
